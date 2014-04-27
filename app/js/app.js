@@ -9,6 +9,9 @@ App.IndexRoute = Ember.Route.extend({
     return [{
       title: 'Balcony Chairs and Tables',
       description: 'A set of 4 chairs and 2 tables for the balcony.'
+    },{
+      title: 'Balcony Chairs and Tables',
+      description: 'A set of 4 chairs and 2 tables for the balcony.'
     }];
   }
 });
