@@ -6,6 +6,9 @@ App.Router.map(function() {
 
 App.IndexRoute = Ember.Route.extend({
   model: function() {
-    return ['red', 'yellow', 'blue'];
+    return [{
+      title: 'Balcony Chairs and Tables',
+      description: 'A set of 4 chairs and 2 tables for the balcony.'
+    }];
   }
 });
