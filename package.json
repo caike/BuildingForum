@@ -8,6 +8,7 @@
     "company": "ACME, Inc."
   },
   "devDependencies": {
+    "grunt-contrib-sass": "^0.7.3",
     "lineman": ">= 0.24.4",
     "lineman-ember": ">= 0.0.1"
   },

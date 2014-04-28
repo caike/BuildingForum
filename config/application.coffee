@@ -9,7 +9,6 @@ You can find the parent object in: node_modules/lineman/config/application.js
 module.exports = (lineman) ->
   # Override application configuration here. Common examples follow in the comments.
   return {
-
     #  API Proxying
     #
     #  During development, you'll likely want to make XHR (AJAX) requests to an API on the same
@@ -24,5 +23,5 @@ module.exports = (lineman) ->
     #      port: 3000
     #    }
     #  }
-
+    enableSass: true
   }
