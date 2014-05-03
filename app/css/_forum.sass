@@ -1,16 +1,18 @@
 body
+  font-size: 12px
   padding: 20px
 
 h2
   text-align: center
 
 .section
-  margin-left: 12%
-  width: 78%
+  @extend .row
+  //margin-left: 12%
+  width: 100%
   padding: 10px
 
-.section h3
-  font-size: 1.5em
+.section > h3
+  //font-size: 1em
   margin-left: 4%
 
 
@@ -22,12 +24,15 @@ dl dt, dl dd
   margin-left: 0px
 
 dl dt
-  font-size: 2em
+  font-size: 1.3em
 
 
 ul
   list-style-type: none
 
 dl:hover
-  background-color: #F4F5ED
+  //background-color: #eeeeee
+  background-color: rgba(68, 170, 102, 0.12)
 
+.tab-content
+  //background-color: #44aa66
